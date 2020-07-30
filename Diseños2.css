@@ -1,0 +1,118 @@
+*{ padding: 0px;
+margin: 0px;}
+
+body {
+    background: #444;
+     }
+
+header{
+    background:url(Label.jpg);
+    width: 100% ;
+height: 125px;
+padding-top: 10px;}
+header > h1 { 
+font-size:  40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornsilk;
+text-align: center;
+margin-bottom: 10px;
+
+display: inline-block;
+margin-left: 10px;
+
+}
+header > img {
+    width: 700px;
+    height: 115px;
+    margin-left: 430px;
+    margin-top: 0px;
+  display:inline-block;
+  
+    
+}
+nav {
+    width: 90%;
+    height: 60px;
+    background-color: darkgray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 7px;  
+}
+nav > ul {
+    text-align: center;
+    padding-top: 20px;
+  
+
+}
+  nav > ul > a{text-decoration: none; font-family: cursive;
+    color: cornsilk;
+    font-size:  20px;
+    padding: 20px;
+    }
+     nav > ul > a:hover {
+         transition:500ms;
+        background-color: black; 
+        color: white}
+        /*acerca de nostros*/
+#Main { 
+    background:url(Img/fc.jpg);
+  width:  80%;
+  height: 650px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#seccion {
+    font-family: cursive;
+    width: 75%;
+    height: 600px;
+    background-color: darkgray;
+    ;
+    margin-top: 20px;
+    box-shadow:1px 1px 10px black;
+    display: inline-block;
+    }
+    article > img {
+        width: 180px;
+        height: 180px;
+        margin-left: 50px;
+        display: inline-block;
+    }
+    
+
+    
+
+    /* aside {
+      float: right;
+      margin-top:  10px;
+      margin-right: 5%;
+         width: 20%;
+         height: 500px;
+         background-color: burlywood;
+         margin-left: 80px;
+    }
+    aside > ul > section {
+        width: 180px;
+        height: 210px;
+        margin-top: 10px;
+        background-color: cornsilk;
+    } */
+    footer { 
+        margin-top: 20px;
+        background-color: rgb(199, 198, 198); 
+        width: 90%; 
+        clear: both;
+        color: rgb(3, 3, 0);
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        }
+
+
+
+
+
+

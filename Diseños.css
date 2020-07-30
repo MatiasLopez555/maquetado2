@@ -1,0 +1,170 @@
+*{ padding: 0px;
+margin: 0px;}
+
+body {
+  background: #444;
+   }
+
+header{
+background:url(Label.jpg);
+width: 100% ;
+height: 125px;
+padding-top: 10px;}
+header > h1 { 
+font-size:  40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornsilk;
+text-align: center;
+margin-bottom: 10px;
+
+display: inline-block;
+margin-left: 10px;
+
+}
+header > img {
+  
+    width: 700px;
+    height: 115px;
+    margin-left: 430px;
+    margin-top: 0px;
+  display:inline-block;
+  
+    
+}
+nav {
+    width: 90%;
+    height: 60px;
+    background-color: darkgray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 7px;  
+    
+}
+nav > ul {
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
+  nav > ul > a{text-decoration: none; font-family: cursive;
+    color: cornsilk;
+    font-size:  20px;
+    padding: 20px;
+    }
+     nav > ul > a:hover {
+         transition:500ms;
+        background-color: black; 
+        color: white}
+    /*inicio*/    
+#Main { 
+  background:url(Img/fc.jpg);
+  width:  80%;
+  height: 570px;
+  margin-left: 5%;
+}
+#seccion {
+  font-family: cursive;
+    width: 60%;
+    height: 500px;
+    background-color: darkgray;
+    margin-top: 30px;
+    box-shadow:1px 1px 10px black;
+    display: inline-block;
+    }
+    
+    #Slider
+    { 
+        background-color: darkred;
+        width: 600px;
+        height: 375px;
+        margin: auto;
+        overflow: hidden;
+    }
+    #Slider > ul {
+        padding: 0px;
+        display: flex;
+        width: 1200px;
+        height: 375px;
+        animation: cambio 10s infinite;
+        
+    }
+    #Slider li{ 
+        list-style: none ;
+        width: 600px;
+    }
+      #Slider ul > li > img { 
+        width: 600px;
+        height: 375px;
+    }
+    @keyframes cambio {
+    0% {margin-left: 0px;}
+    40% {margin-left: 0px;}
+
+    50% {margin-left: -600px;}
+    80% {margin-left: -600px;}
+    }
+
+    article > img {
+        width: 180px;
+        height: 180px;
+        margin-left: 50px;
+        display: inline-block;
+        
+        
+    }
+    aside {
+      font-family: cursive;
+      float: right;
+      margin-top:  30px;
+      margin-right: 5%;
+         width: 20%;
+         height: 500px;
+         background-color: rgb(105, 105, 102) ;
+         margin-left: 80px;
+    }
+    aside > ul > section {
+        font-family: cursive;
+        width: 180px;
+        height: 380px;
+        margin-top: 10px;
+        background-color: darkgray;
+    }
+    aside > ul > section > ul > li {
+      font-family: cursive;
+      margin-top: 10px;
+      list-style: none;
+  }
+
+aside > ul > section> ul > li > a {
+  text-decoration: none; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: black;
+      margin-top: 15px;
+      font-size:  15px;
+      padding: 10px;
+      }        
+aside > ul > section > ul > li> a:hover {
+   transition:500ms;
+   background-color: rgb(87, 81, 81); 
+  color: white
+}
+    footer { 
+        margin-top: 20px;
+        background-color: rgb(199, 198, 198); 
+        width: 90%; 
+        clear: both;
+        color: rgb(3, 3, 0);
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        }
+
+
+
+
+
+
