@@ -2,7 +2,7 @@
 margin: 0px;}
 
 body {
-    background: #444;
+    background:url(Img/fc.jpg);
      }
 
 header{
@@ -54,48 +54,90 @@ nav > ul {
         background-color: black; 
         color: white}
      /*servicios*/   
-#Main { 
-    background:url(Img/fc.jpg);
-  width:  80%;
-  height: 700px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#seccion {
-    width: 60%;
-    height: 500px;
-    background-color: darkgray;
-    margin-top: 10px;
-    box-shadow:1px 1px 10px black;
-    display: inline-block;
+     .galeria {
+        font-family: 'open sans';
     }
-    article > img {
-        width: 180px;
-        height: 180px;
-        margin-left: 50px;
-        display: inline-block;
-    }
-    #art3 {
-        display: inline-block;
+    .galeria h1{
+        text-align: center;
+        margin: 20px 0 15px 0;
+        font-weight: 300;
     }
 
-    aside {
-      float: right;
-      margin-top:  10px;
-      margin-right: 5%;
-         width: 20%;
-         height: 500px;
-         background-color: burlywood;
-         margin-left: 80px;
+
+     .linea{
+        border-top: 5px solid #709ae9;
+        margin-bottom: 40px;
     }
-    aside > ul > section {
-        width: 180px;
-        height: 210px;
-        margin-top: 10px;
-        background-color: cornsilk;
+    
+    .contenedor_servicios{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 3px;
+    }
+
+    /* .contenedor_servicios2{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 3px;
+    } */
+
+    .contenedor_servicios .servicios{
+        width: 32%;
+        position: relative;
+        height: 400px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 75);
+    }
+    .servicios img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 118, 192, 0.767);
+        width: 100%;
+        height: 0%;
+        overflow: hidden;
+        transition: .5s ease;
+    }
+    
+    .overlay h2{
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        font-size: 30px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    
+    .overlay p{
+        color: rgb(255, 255, 255);
+        font-weight: 200;
+        font-size: 20px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    }
+
+    .servicios:hover .overlay{ 
+        height: 100%;
+        cursor: pointer;
     }
     footer { 
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: rgb(199, 198, 198); 
         width: 90%; 
         clear: both;
